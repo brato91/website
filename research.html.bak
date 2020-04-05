@@ -1,5 +1,386 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html>  <head>    <meta http-equiv="content-type" content="text/html; charset=us-ascii">    <meta name="viewport" content="width=800">    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">    <style type="text/css">    /* Color scheme stolen from Sergey Karayev */    a {      color: #1772d0;      text-decoration: none;    }    a:focus,    a:hover {      color: #f09228;      text-decoration: none;    }    body,    td,    th,    tr,    p,    a {      font-family: 'Lato', Verdana, Helvetica, sans-serif;      font-size: 14px    }    strong {      font-family: 'Lato', Verdana, Helvetica, sans-serif;      font-size: 14px;    }    heading {      font-family: 'Lato', Verdana, Helvetica, sans-serif;      font-size: 22px;    }    papertitle {      font-family: 'Lato', Verdana, Helvetica, sans-serif;      font-size: 14px;      font-weight: 700    }    name {      font-family: 'Lato', Verdana, Helvetica, sans-serif;      font-size: 32px;    }    .one {      width: 160px;      height: 160px;      position: relative;    }    .two {      width: 160px;      height: 160px;      position: absolute;      transition: opacity .2s ease-in-out;      -moz-transition: opacity .2s ease-in-out;      -webkit-transition: opacity .2s ease-in-out;    }    .fade {      transition: opacity .2s ease-in-out;      -moz-transition: opacity .2s ease-in-out;      -webkit-transition: opacity .2s ease-in-out;    }    span.highlight {      background-color: #ffffd0;    }    .bottom-padding {     margin-bottom: 40px;    }    .top-padding {     margin-top: 40px;    }    li{    margin: 10px 0;    }    p.small {  line-height: 0.7;  }  p.big {  line-height: 1.5;  }  </style>    <link rel="icon" type="image/jpg" href="ucsd_cse.jpg">    <title>Brato - MAE, UC San Diego</title>    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"      rel="stylesheet"      type="text/css">    <!-- Global site tag (gtag.js) - Google Analytics -->    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-138756775-1"></script>    <script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'UA-138756775-1');</script> </head>  <body>    <table style="width: 866px; height: 351px;" cellspacing="0" cellpadding="15"      border="0"      align="center">      <tbody>        <tr>          <td width="65%" valign="middle"> <heading>Research</heading>            <p class="big"> My research interests lie broadly in the fields of              Fluid Dynamics, Scientific Computing, Dynamical Systems, Applied              Mathematics and Biophysics. In particular I am interested in              developing theoretical and computational tools to study              hydrodynamics of flexible slender structures. Problems involve              understanding buckling instabilities of passive semiflexible              polymers like actin filaments in flow, that are key to various              cellular processes and dictate the rheological properties of              suspensions. Another set of problems include bottom-up modeling of              active micro-filaments like flagella or cilia that are driven out              of equilibrium and understanding the role of hydrodynamics in              emergent behavior or synchronization. My detailed simulations are              often complemented by analytical solutions, scaling analysis,              theoretical models from dynamical systems and by experiments done              in close collaboration. </p>            <p class="big"> I have also worked on problems involving transport              of active and passive particles in porous media, shear dispersion,              mixing by chaotic advection and turbulence in active matter. </p>            <p class="big"> Brief descriptions of the projects and associated              publications are given below. I prefer the arXiv version (if              available) over the journal. </p>          </td>        </tr>      </tbody>    </table>    <!-- Start listing pubs -->    <table width="70%" cellspacing="0" cellpadding="15" border="0" align="center">      <tbody>        <tr>          <td width="65%" valign="middle"> <heading>Publications</heading> </td>        </tr>      </tbody>    </table>    <table width="70%" cellspacing="0" cellpadding="20" border="0" align="center">      <!--- publication on polymer transport -->      <tbody>        <tr>          <td width="25%"><img src="images/strob.png" alt="PontTuset" style="border-style: none; width: 171px; height: 171px;">          </td>          <td width="75%" valign="top">            <p><span style="color: #2079d6;"> <papertitle>Trapping, gliding,                  vaulting: Transport of semiflexible polymers in periodic post                  arrays </papertitle></span><br>              <strong>Brato Chakrabarti</strong>, Charles Gaillard and David              Saintillan <br>              <em>Under Review</em> </p>            <p>We study transport of Brownian polymers in structured 2D lattices              in presence of a pressure driven flow. Depending on several              geometric parameters and polymer sizes we identify distinct modes              of transport and study them using dynamical systems theory. These              modes can be leveraged to design chromatographic devices that are              able to sort polymers based on their lengths.</p>          </td>        </tr>        <!-- Publication on helical buckling -->      </tbody>      <tbody>        <tr>          <td width="25%"><img src="images/helix.png" alt="PontTuset" style="border-style: none;"              height="160"              width="180">          </td>          <td width="75%" valign="top">            <p> <a href="https://arxiv.org/pdf/1910.04558.pdf"> <papertitle>Flexible
-                  filaments buckle into helicoidal shapes in strong                  compressional flows</papertitle> </a> <br>              <strong>Brato Chakrabarti</strong>, Yanan Liu, John LaGrone,              Ricardo Cortez, Lisa Fauci, Olivi du Roure, David Saintillan and              Anke Lindner <br>              to appear in <em>Nature Physics, </em>2020.<br>            </p>            <p></p>            <p> When flexible filaments experience strong compressive force, it              buckles in 3D helicoidal conformations even in entirely planar              flows. We elucidate this instability using experiments,              simulations, scaling theory and weakly-nonlinear stability              analysis. Our theory explains for the first time why coiling and              helical morphologies are generic in strain dominated flows. </p>          </td>        </tr>        <!-- Publication on synchronization -->        <tr>          <td width="25%"><img src="images/sync.png" alt="PontTuset" style="border-style: none"              width="180">          </td>          <td width="75%" valign="top">            <p> <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.208101">                <papertitle>Hydrodynamic synchronization of spontaneously                  beating filaments </papertitle></a><a href="https://arxiv.org/pdf/1904.10088.pdf">[arXiv:pdf]</a><a                href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.208101">              </a> <br>              <strong>Brato Chakrabarti</strong> and David Saintillan <br>              <em>Physical Review Letters,</em> <strong>123</strong> 208101              (2019). </p>            <p><a href="https://arxiv.org/pdf/1904.10088.pdf"> </a> </p>            <p></p>            <p> Using our previous model for spontaneous oscillations of              filaments we study hydrodynamic phase synchronization in a pair of              filaments with waveforms ranging from sperm to cilia and <em>Chlamydomonas.</em>              Our computations reveal both inphase and anti-phase synchrony can              emerge for asymmetric beats and elucidate the mechanism for phase              slips due to biochemical noise. </p>          </td>        </tr>        <!-- Publication on spontaneously beating filament -->        <tr>          <td width="25%"><img src="images/spont.svg" alt="PontTuset" style="border-style: none"              width="180">          </td>          <td width="75%" valign="top">            <p> <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.4.043102">                <papertitle>Spontaneous oscillations, beating patterns and                  hydrodynamics of active microfilaments</papertitle> </a> <br>              <strong>Brato Chakrabarti</strong> and David Saintillan <br>              <em>Physical Review Fluids,</em> <strong>4</strong> 043102              (2019). <br>            </p>            <p></p>            <p> We develop a geometrically nonlinear model of the flagellar              axoneme that accounts for the stochastic kinetics of molecular              motors and results in spontaneous oscillations. We capture the              beating patterns of sperm, cilia and <em>Chlamydomonas</em> and              analyze their hydrodynamics through reduced order models. </p>          </td>        </tr>        <!-- Publication with Roberto on dispersion -->        <tr>          <td width="25%"><img src="images/actdisp.svg" alt="PontTuset" style="border-style: none"              width="180">          </td>          <td width="75%" valign="top">            <p> <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.4.043101">                <papertitle>Transport and dispersion of active particles in                  periodic porous media</papertitle> </a><a href="https://arxiv.org/abs/1809.00086"                target="_blank">[arXiv:pdf]
-                </a> <br> Roberto Alonso Matilla, <strong>Brato Chakrabarti</strong>,              and David Saintillan <br>              <em>Physical Review Fluids,</em> <strong>4</strong> 043101              (2019). <br>            </p>            <p></p>            <p> The long-time transport of active Brownian particles flowing              through a porous lattice is studied using generalized Taylor              dispersion theory and Langevin simulations. The effects of              motility, lattice geometry, and fluid flow on the asymptotic              spreading of a dilute cloud of microswimmers are unraveled. </p>          </td>        </tr>        <!-- Publication on Shear flow actin -->        <tr>          <td width="25%"><img src="images/actinshear.png" alt="PontTuset" style="border-style: none"              width="180">          </td>          <td width="75%" valign="top">            <p> <a href="https://www.pnas.org/content/115/38/9438.short" target="_blank">                <papertitle>Morphological transitions of flexible filaments in                  shear flow</papertitle> </a><a href="https://arxiv.org/pdf/1803.10979.pdf">[arXiv:pdf]
-                </a> <br> Yanan Liu*, <strong>Brato Chakrabarti*</strong>,              David Saintillan, Anke Lindner, and Olivia du Roure <br>              <em>Proceedings of the National Academy of Sciences </em>, <strong>115</strong>              9438 (2018) <br>              (* denotes equal contribution) </p>            <p> Through a combination of microfluidic experiments and detailed              elastohydrodynamic numeical simulations accounting for Brownian              fluctuations we study dynamics of single actin filaments in shear              flow and characterize their various dynamical regimes from              tumbling to buckling and snaking. Analytically tractable              reduced-order theoretical model is developed to elucidate the              unexplained mechanism for the transition to snaking. </p>          </td>        </tr>        <!-- Publication on catenaries -->        <tr>          <td width="25%"><img src="images/catenary.svg" alt="PontTuset" style="border-style: none"              width="180">          </td>          <td width="75%" valign="top">            <p> <a href="https://www.sciencedirect.com/science/article/pii/S0889974615300281"                target="_blank">                <papertitle>Catenaries in viscous fluid</papertitle> </a><a href="https://arxiv.org/pdf/1509.01282.pdf">[arXiv:pdf]
-                </a> <br> <strong>Brato Chakrabarti</strong> and James Hanna <br>              <em>Journal of Fluids and Structures</em>, <strong>66</strong>              490-516 (2016) </p>            <p> The classical catenaries are a one-parameter family of curves              that don't change shape under translation and axial flow. Stick              them in a fluid and they do, picking up four additional shape              parameters. These solutions include towing, sedimentation, and              other problems as subcases. </p>          </td>        </tr>      </tbody>    </table>    <!-- Table for in preparation publications -->    <table width="65%" cellspacing="0" cellpadding="2" border="0" align="center">      <tbody>        <tr>          <td>            <h3>In preparation</h3>          </td>        </tr>      </tbody>    </table>    <table width="65%" cellpadding="8" border="0" align="center">      <tbody>        <tr>          <td cellpadding="1" width="75%" valign="center">            <p> <papertitle>Shear dispersion in peristaltic pumping</papertitle>              <br>              <strong>Brato Chakrabarti</strong> and David Saintillan <br>              In preparation. </p>          </td>        </tr>      </tbody>    </table>    <!-- Some other stuff -->    <table width="70%" cellspacing="0" cellpadding="15" border="0" align="center">      <tbody>        <tr>          <td width="65%" valign="middle"> <heading>For fun!</heading> </td>        </tr>      </tbody>    </table>    <table width="70%" cellspacing="0" cellpadding="10" border="0" align="center">      <tbody>        <tr>          <td width="25%"> <video autoplay="autoplay" loop="loop" muted="muted"              height="180"              width="180">              <source src="images/turb.mp4" type="video/mp4"> </video> </td>          <!--  <td width="25%"><img src='images/actdisp.svg' alt="PontTuset" width="180" style="border-style: none"> -->          <td width="75%" valign="top">            <p> <br>              <br>              <a href="https://www.pnas.org/content/109/36/14308.short" target="_blank">                <papertitle>Meso-scale turbulence in living fluids</papertitle>              </a> <br>              Dense bacterial suspensions often demonstrate turbuelence like              features. As a system driven inherently out of equilibrium, energy              is continuously injected that drives a self-sustained vortex              pattern. A variation of the classical <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.58.4828"                target="_blank">Toner-Tu</a>              model along with <a href="https://en.wikipedia.org/wiki/Swift%E2%80%93Hohenberg_equation"                target="_blank">Swift-Hohenberg</a>              theory can qualitatively capture this behavior with the governing              equation resembling forced Navier-Stokes equation. I wrote a              pseudo-spectral Matlab code in 2D for this 'active turbulence'. </p>          </td>        </tr>      </tbody>    </table>    <table width="100%" cellspacing="0" cellpadding="20" border="0" align="center">      <tbody>        <tr>          <td> <br>            <p align="right"> <font size="2"> Go to: <a href="index.html">Home</a>/                <a href="miscellaneous.html">Miscellaneous</a> </font> </p>          </td>        </tr>      </tbody>    </table>  </body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=us-ascii">
+    <meta name="viewport" content="width=800">
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+    <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
+
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700
+    }
+
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+
+    span.highlight {
+      background-color: #ffffd0;
+    }
+
+    .bottom-padding {
+     margin-bottom: 40px;
+    }
+
+    .top-padding {
+     margin-top: 40px;
+    }
+
+    li{
+    margin: 10px 0;
+    }
+
+    p.small {
+  line-height: 0.7;
+  }
+
+  p.big {
+  line-height: 1.5;
+  }
+  </style>
+    <link rel="icon" type="image/jpg" href="ucsd_cse.jpg">
+    <title>Brato - Flatiron Research Fellow</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-138756775-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138756775-1');
+</script> </head>
+  <body>
+    <table style="width: 866px; height: 351px;" cellspacing="0" cellpadding="15"
+      border="0"
+      align="center">
+      <tbody>
+        <tr>
+          <td width="65%" valign="middle"> <heading>Research</heading>
+            <p class="big"> My research interests lie broadly in the fields of
+              Fluid Dynamics, Scientific Computing, Dynamical Systems, Applied
+              Mathematics and Biophysics. In particular I am interested in
+              developing theoretical and computational tools to study
+              hydrodynamics of flexible slender structures. Problems involve
+              understanding buckling instabilities of passive semiflexible
+              polymers like actin filaments in flow, that are key to various
+              cellular processes and dictate the rheological properties of
+              suspensions. Another set of problems include bottom-up modeling of
+              active micro-filaments like flagella or cilia that are driven out
+              of equilibrium and understanding the role of hydrodynamics in
+              emergent behavior or synchronization. My detailed simulations are
+              often complemented by analytical solutions, scaling analysis,
+              theoretical models from dynamical systems and by experiments done
+              in close collaboration. </p>
+            <p class="big"> I have also worked on problems involving transport
+              of active and passive particles in porous media, shear dispersion,
+              mixing by chaotic advection and turbulence in active matter. </p>
+            <p class="big"> Brief descriptions of the projects and associated
+              publications are given below. I prefer the arXiv version (if
+              available) over the journal. </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Start listing pubs -->
+    <table width="70%" cellspacing="0" cellpadding="15" border="0" align="center">
+      <tbody>
+        <tr>
+          <td width="65%" valign="middle"> <heading>Publications</heading> </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="70%" cellspacing="0" cellpadding="20" border="0" align="center">
+      <!--- publication on polymer transport -->
+      <tbody>
+        <tr>
+          <td width="25%"><img src="images/strob.png" alt="PontTuset" style="border-style: none; width: 171px; height: 171px;">
+          </td>
+          <td width="75%" valign="top">
+            <p><span style="color: #2079d6;"> <papertitle>Trapping, gliding,
+                  valting: Transport of semiflexible polymers in periodic post
+              arrays</papertitle> <a href="https://arxiv.org/pdf/2003.09270.pdf"> [arXiv:pdf] </a> </span><br>
+              <strong>Brato Chakrabarti</strong>, Charles Gaillard and David
+              Saintillan <br>
+              <em>Under Review</em> </p>
+            <p>We study transport of Brownian polymers in structured 2D lattices
+              in presence of a pressure driven flow. Depending on several
+              geometric parameters and polymer sizes we identify distinct modes
+              of transport and study them using dynamical systems theory. These
+              modes can be leveraged to design chromatographic devices that are
+              able to sort polymers based on their lengths.</p>
+          </td>
+        </tr>
+        <!-- Publication on helical buckling -->
+      </tbody>
+      <tbody>
+        <tr>
+          <td width="25%"><img src="images/helix.png" alt="PontTuset" style="border-style: none;"
+              height="160"
+              width="180">
+          </td>
+          <td width="75%" valign="top">
+            <p> <a href="https://www.nature.com/articles/s41567-020-0843-7"> <papertitle>Flexible
+                  filaments buckle into helicoidal shapes in strong
+                  compressional flows</papertitle> </a> <a href="https://arxiv.org/pdf/1910.04558.pdf">
+                [arXiv:pdf] </a> <br>
+              <strong>Brato Chakrabarti</strong>, Yanan Liu, John LaGrone,
+              Ricardo Cortez, Lisa Fauci, Olivi du Roure, David Saintillan and
+              Anke Lindner <br>
+              <em>Nature Physics, </em>2020.<br>
+            </p>
+            <p></p>
+            <p> When flexible filaments experience strong compressive force, it
+              buckles in 3D helicoidal conformations even in entirely planar
+              flows. We elucidate this instability using experiments,
+              simulations, scaling theory and weakly-nonlinear stability
+              analysis. Our theory explains for the first time why coiling and
+              helical morphologies are generic in strain dominated flows. </p>
+          </td>
+        </tr>
+        <!-- Publication on synchronization -->
+        <tr>
+          <td width="25%"><img src="images/sync.png" alt="PontTuset" style="border-style: none"
+              width="180">
+          </td>
+          <td width="75%" valign="top">
+            <p> <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.208101">
+                <papertitle>Hydrodynamic synchronization of spontaneously
+                  beating filaments </papertitle></a><a href="https://arxiv.org/pdf/1904.10088.pdf">[arXiv:pdf]</a><a
+                href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.208101">
+              </a> <br>
+              <strong>Brato Chakrabarti</strong> and David Saintillan <br>
+              <em>Physical Review Letters,</em> <strong>123</strong> 208101
+              (2019). </p>
+            <p><a href="https://arxiv.org/pdf/1904.10088.pdf"> </a> </p>
+            <p></p>
+            <p> Using our previous model for spontaneous oscillations of
+              filaments we study hydrodynamic phase synchronization in a pair of
+              filaments with waveforms ranging from sperm to cilia and <em>Chlamydomonas.</em>
+              Our computations reveal both inphase and anti-phase synchrony can
+              emerge for asymmetric beats and elucidate the mechanism for phase
+              slips due to biochemical noise. </p>
+          </td>
+        </tr>
+        <!-- Publication on spontaneously beating filament -->
+        <tr>
+          <td width="25%"><img src="images/spont.svg" alt="PontTuset" style="border-style: none"
+              width="180">
+          </td>
+          <td width="75%" valign="top">
+            <p> <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.4.043102">
+                <papertitle>Spontaneous oscillations, beating patterns and
+                  hydrodynamics of active microfilaments</papertitle> </a> <br>
+              <strong>Brato Chakrabarti</strong> and David Saintillan <br>
+              <em>Physical Review Fluids,</em> <strong>4</strong> 043102
+              (2019). <br>
+            </p>
+            <p></p>
+            <p> We develop a geometrically nonlinear model of the flagellar
+              axoneme that accounts for the stochastic kinetics of molecular
+              motors and results in spontaneous oscillations. We capture the
+              beating patterns of sperm, cilia and <em>Chlamydomonas</em> and
+              analyze their hydrodynamics through reduced order models. </p>
+          </td>
+        </tr>
+        <!-- Publication with Roberto on dispersion -->
+        <tr>
+          <td width="25%"><img src="images/actdisp.svg" alt="PontTuset" style="border-style: none"
+              width="180">
+          </td>
+          <td width="75%" valign="top">
+            <p> <a href="https://journals.aps.org/prfluids/abstract/10.1103/PhysRevFluids.4.043101">
+                <papertitle>Transport and dispersion of active particles in
+                  periodic porous media</papertitle> </a><a href="https://arxiv.org/abs/1809.00086"
+                target="_blank">[arXiv:pdf]
+                </a> <br> Roberto Alonso Matilla, <strong>Brato Chakrabarti</strong>,
+              and David Saintillan <br>
+              <em>Physical Review Fluids,</em> <strong>4</strong> 043101
+              (2019). <br>
+            </p>
+            <p></p>
+            <p> The long-time transport of active Brownian particles flowing
+              through a porous lattice is studied using generalized Taylor
+              dispersion theory and Langevin simulations. The effects of
+              motility, lattice geometry, and fluid flow on the asymptotic
+              spreading of a dilute cloud of microswimmers are unraveled. </p>
+          </td>
+        </tr>
+        <!-- Publication on Shear flow actin -->
+        <tr>
+          <td width="25%"><img src="images/actinshear.png" alt="PontTuset" style="border-style: none"
+              width="180">
+          </td>
+          <td width="75%" valign="top">
+            <p> <a href="https://www.pnas.org/content/115/38/9438.short" target="_blank">
+                <papertitle>Morphological transitions of flexible filaments in
+                  shear flow</papertitle> </a><a href="https://arxiv.org/pdf/1803.10979.pdf">[arXiv:pdf]
+                </a> <br> Yanan Liu*, <strong>Brato Chakrabarti*</strong>,
+              David Saintillan, Anke Lindner, and Olivia du Roure <br>
+              <em>Proceedings of the National Academy of Sciences </em>, <strong>115</strong>
+              9438 (2018) <br>
+              (* denotes equal contribution) </p>
+            <p> Through a combination of microfluidic experiments and detailed
+              elastohydrodynamic numeical simulations accounting for Brownian
+              fluctuations we study dynamics of single actin filaments in shear
+              flow and characterize their various dynamical regimes from
+              tumbling to buckling and snaking. Analytically tractable
+              reduced-order theoretical model is developed to elucidate the
+              unexplained mechanism for the transition to snaking. </p>
+          </td>
+        </tr>
+        <!-- Publication on catenaries -->
+        <tr>
+          <td width="25%"><img src="images/catenary.svg" alt="PontTuset" style="border-style: none"
+              width="180">
+          </td>
+          <td width="75%" valign="top">
+            <p> <a href="https://www.sciencedirect.com/science/article/pii/S0889974615300281"
+                target="_blank">
+                <papertitle>Catenaries in viscous fluid</papertitle> </a><a href="https://arxiv.org/pdf/1509.01282.pdf">[arXiv:pdf]
+                </a> <br> <strong>Brato Chakrabarti</strong> and James Hanna <br>
+              <em>Journal of Fluids and Structures</em>, <strong>66</strong>
+              490-516 (2016) </p>
+            <p> The classical catenaries are a one-parameter family of curves
+              that don't change shape under translation and axial flow. Stick
+              them in a fluid and they do, picking up four additional shape
+              parameters. These solutions include towing, sedimentation, and
+              other problems as subcases. </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Table for in preparation publications -->
+    <table width="65%" cellspacing="0" cellpadding="2" border="0" align="center">
+      <tbody>
+        <tr>
+          <td>
+            <h3>In preparation</h3>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="65%" cellpadding="8" border="0" align="center">
+      <tbody>
+        <tr>
+          <td cellpadding="1" width="75%" valign="center">
+            <p> <papertitle>Signatures of elastoviscous buckling in the dilute
+                rheology of stiff polymers</papertitle> <br>
+              <strong>Brato Chakrabarti</strong>, Yanan Liu, Olivia du Roure,
+              Anke Lindner and David Saintillan <br>
+              In preparation. </p>
+            <p><papertitle>Shear dispersion in peristaltic pumping</papertitle>
+              <br>
+              <strong>Brato Chakrabarti</strong> and David Saintillan <br>
+              In preparation. </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Some other stuff -->
+    <table width="70%" cellspacing="0" cellpadding="15" border="0" align="center">
+      <tbody>
+        <tr>
+          <td width="65%" valign="middle"> <heading>For fun!</heading> </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="70%" cellspacing="0" cellpadding="10" border="0" align="center">
+      <tbody>
+        <tr>
+          <td width="25%"> <video autoplay="autoplay" loop="loop" muted="muted"
+              height="180"
+              width="180">
+              <source src="images/turb.mp4" type="video/mp4"> </video> </td>
+          <!--  <td width="25%"><img src='images/actdisp.svg' alt="PontTuset" width="180" style="border-style: none"> -->
+          <td width="75%" valign="top">
+            <p> <br>
+              <br>
+              <a href="https://www.pnas.org/content/109/36/14308.short" target="_blank">
+                <papertitle>Meso-scale turbulence in living fluids</papertitle>
+              </a> <br>
+              Dense bacterial suspensions often demonstrate turbuelence like
+              features. As a system driven inherently out of equilibrium, energy
+              is continuously injected that drives a self-sustained vortex
+              pattern. A variation of the classical <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.58.4828"
+                target="_blank">Toner-Tu</a>
+              model along with <a href="https://en.wikipedia.org/wiki/Swift%E2%80%93Hohenberg_equation"
+                target="_blank">Swift-Hohenberg</a>
+              theory can qualitatively capture this behavior with the governing
+              equation resembling forced Navier-Stokes equation. I wrote a
+              pseudo-spectral Matlab code in 2D for this 'active turbulence'. </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="100%" cellspacing="0" cellpadding="20" border="0" align="center">
+      <tbody>
+        <tr>
+          <td> <br>
+            <p align="right"> <font size="2"> Go to: <a href="index.html">Home</a>/
+                <a href="miscellaneous.html">Miscellaneous</a> </font> </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+  </body>
+</html>
